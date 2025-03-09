@@ -1,0 +1,33 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+li a{
+    cursor: pointer;
+    font-weight: 500;
+    color: #302C28;
+    transition: .5s;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: #665D55;
+
+}
+
+#titulo__principal{
+    color: #2F438A;
+    font-weight: 700;
+}
