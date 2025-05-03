@@ -10,3 +10,21 @@ footer{
     display: grid;
     place-items: center;
 }
+
+.titulo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.divisor_titulo{
+    text-align: center;
+    font-weight: 300;
+}
+
+.linha{
+    display: block;                 
+    border-bottom: 2px solid rgb(216, 216, 216);
+    width: 30vw;                    
+    margin: 20px auto;
+}

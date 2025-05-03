@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="./assets/css/cabecalho.css">
     <link rel="stylesheet" href="./assets/css/apresentacao.css">
     <link rel="stylesheet" href="./assets/css/sobre.css">
-    <link rel="stylesheet" href="/assets/css/projetos.css">
+    <link rel="stylesheet" href="./assets/css/projetos.css">
+    <link rel="stylesheet" href="./assets/css/habilidade.css">
     <link rel="shortcut icon" href="./assets/img/logotipo.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +19,7 @@
     <body>
         <header>
             <h2 id="titulo__principal">Pedro Bryk</h2>
-            <img class="logotipo_electric" src="./assets/img/electric-logo.svg" alt="">
+            <img class="logotipo_electric" src="./assets/img/electric-logo.svg" alt="logotipo electric">
         </header>
         <main>
             <section class="sobre">
@@ -28,24 +29,54 @@
                         <p id="texto__apresentacao">Atualmente, trabalho com suporte a sistemas hospitalares e desenvolvo projetos web para consolidar os conhecimentos adquiridos ao longo da minha trajetória de estudos em programação Front-End que você poderá conhecer aqui no meu portifólio!</p>
                     </div>
                     <div class="apresentacao__contato">
-                        <button class="btn">Entre em contato</button>
+                        <button class="btn"><a href="#projetos">Conhecer Projetos</a></button>
                         <span class="icone">
                             <a href=""><img class="icon" src="./assets/img/icones/github.png" alt="ícone github"></a>
                         </span>
                         <span class="icone">
-                            <a href=""><img class="icon" src="./assets/img/icones/linkedin.png" alt="ícone Linkedin"></a>
+                            <a href="https://www.linkedin.com/in/pedro-bryk-648b78215/"><img class="icon" src="./assets/img/icones/linkedin.png" alt="ícone Linkedin"></a>
                         </span>
                         <span class="icone">
                             <a href=""><img class="icon" src="./assets/img/icones/instagram.png" alt="ícone Instagram"></a>
                         </span>
                         <span class="icone">
-                            <a href=""><img class="icon" src="./assets/img/icones/whatsapp.png" alt="ícone whatsapp"></a>
+                            <a href="https://api.whatsapp.com/send/?phone=42998133857&text&type=phone_number&app_absent=0"><img class="icon" src="./assets/img/icones/whatsapp.png" alt="ícone whatsapp"></a>
                         </span>
                     </div>
                 </article>
                 <div class="apresentacao__foto"></div>
             </section>
-            <section class="projetos">
+            <section class="titulo">
+                <span class="linha"></span>
+                <h1 class="divisor_titulo">Habilidades</h1>
+                <span class="linha"></span>
+            </section>
+            <section class="habilidades">
+                <div class="habilidade">
+                    <img src="./assets/img/front.png" alt="" class="habilidade_img">
+                    <h3>Front-End</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum perferendis hic error distinctio eveniet quisquam obcaecati temporibus delectus iure, nemo culpa ipsam unde harum quos, numquam in cum veniam ad!
+                    </p>
+                </div>
+                <div class="habilidade">
+                    <img src="./assets/img/user.png" alt="" class="habilidade_img">
+                    <h3>Suporte e treinamento ao usuário</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum perferendis hic error distinctio eveniet quisquam obcaecati temporibus delectus iure, nemo culpa ipsam unde harum quos, numquam in cum veniam ad!
+                    </p>
+                </div>
+                <div class="habilidade">
+                    <img src="./assets/img/sistema.png" alt="" class="habilidade_img">
+                    <h3>Suporte e implantação de sistemas</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum perferendis hic error distinctio eveniet quisquam obcaecati temporibus delectus iure, nemo culpa ipsam unde harum quos, numquam in cum veniam ad!
+                    </p>
+                </div>
+            </section>
+            <section class="titulo">
+                <span class="linha"></span>
+                <h1 class="divisor_titulo">Projetos Front-End</h1>
+                <span class="linha"></span>
+            </section>
+            <section id="projetos" class="projetos">
                 <article class="projeto__first">
                     <div class="projeto__cabecalho">
                         <div class="projeto__cabecalho-titulo">
@@ -56,7 +87,9 @@
                             <a href="https://pedrobryk.github.io/Loja-Virtual-Moo/"><img class="icon" src="./assets/img/icones/externo.png" alt="ícone whatsapp"></a>
                         </span>
                     </div>
-                   <img id="projeto__first-img" src="./assets/img/moo_imagem.png" alt="">
+                   <div class="background_img">
+                        <img src="./assets/img/moo_imagem.png" alt="Oblivia">
+                   </div>
                 </article>
                 <article class="projeto__second">
                     <div class="projeto__cabecalho">
@@ -68,19 +101,23 @@
                             <a href="https://pedrobryk.github.io/Mudas-Home-Garden/"><img class="icon" src="./assets/img/icones/externo.png" alt="ícone whatsapp"></a>
                         </span>
                     </div>
-                   <img id="projeto__first-img" src="./assets/img/mudas_imagem.png" alt="">
+                    <div class="background_img">
+                        <img src="./assets/img/mudas_imagem.png" alt="Oblivia">
+                    </div>
                 </article>
                 <article class="projeto__third">
                     <div class="projeto__cabecalho">
                         <div class="projeto__cabecalho-titulo">
                             <h3 class="titulo__projeto">ABRYK Moto Service</h3>
-                            <p class="texto__projeto">Landing Page para uma oficina de motos</p>
+                            <p class="texto__projeto">Landing Page para uma oficina de motos de um familiar</p>
                         </div>
                         <span class="icone">
                             <a href="https://pedrobryk.github.io/Abryk-moto-service/"><img class="icon" src="./assets/img/icones/externo.png" alt="ícone whatsapp"></a>
                         </span>
                     </div>
-                   <img id="projeto__first-img" src="./assets/img/abryk_imagem.png" alt="">
+                    <div class="background_img">
+                        <img src="./assets/img/abryk_imagem.png" alt="Oblivia">
+                    </div>
                 </article>
                 <article class="projeto__fourth">
                     <div class="projeto__cabecalho">
@@ -92,8 +129,15 @@
                             <a href="https://pedrobryk.github.io/calculadora/"><img class="icon" src="./assets/img/icones/externo.png" alt="ícone whatsapp"></a>
                         </span>
                     </div>
-                   <img id="projeto__first-img" src="./assets/img/calculadora_imagem.png" alt="">
+                    <div class="background_img">
+                        <img src="./assets/img/calculadora_imagem.png" alt="Oblivia">
+                    </div>
                 </article>
+            </section>
+            <section class="titulo">
+                <span class="linha"></span>
+                <h1 class="divisor_titulo">Sobre</h1>
+                <span class="linha"></span>
             </section>
             <section class="sobre_mim">
                 <div class="sobre_mim-img">
@@ -105,9 +149,10 @@
 
                         Atualmente, atuo na área de suporte e implantação de sistemas hospitalares, onde aprendo diariamente sobre os bastidores da saúde e a importância de soluções tecnológicas bem pensadas para o cuidado com as pessoas. Ao mesmo tempo, sigo firme na minha trajetória acadêmica, mergulhado nos estudos e no universo da programação.
                         
-                        Nas horas vagas (e muitas vezes entre um café e outro), me dedico ao desenvolvimento de projetos front-end. Eles são meu laboratório criativo, onde exploro o que aprendo e consolido meus conhecimentos de forma prática, visual e dinâmica.</p>
+                        Nas horas vagas, me dedico ao desenvolvimento de projetos front-end. Eles são meu laboratório criativo, onde exploro o que aprendo e consolido meus conhecimentos de forma prática, visual e dinâmica.</p>
                 </div>
             </section>
+            
         </main>
         <footer>
             <p>&copy; 2025 Pedro Bryk todos os direitos reservados.</p>
