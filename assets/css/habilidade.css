@@ -20,6 +20,12 @@
     cursor: pointer;
     border-radius: 20px;
     display: grid;
-    place-items: center;
+    align-items: start;
+    justify-items: center;
+    height: auto;
     
+}
+
+.habilidade p{
+    position: static;
 }
